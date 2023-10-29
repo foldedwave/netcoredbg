@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: [macOS, ARM64]
+    runs-on: macos-latest-xlarge
 
     steps:
     - uses: actions/checkout@v3
